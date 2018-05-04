@@ -3,11 +3,26 @@ package cn.yang.interview;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.Stack;
+
 import static org.junit.Assert.*;
 
 public class SortTest {
-
 	private Sort sort;
+	@Test
+	public void sortByStack() throws Exception {
+		Stack<Integer> stack = new Stack<Integer>();
+		stack.push(3);
+		stack.push(1);
+		stack.push(2);
+//		stack.push(2);
+//		stack.push(6);
+//		stack.push(5);
+		sort.sortByStack(stack);
+		System.out.println(stack);
+		System.out.println(stack.peek());
+	}
+
 
 	private int[] array = new int[]{1,6,7,234,12,3,2,1};
 
