@@ -18,7 +18,7 @@ import java.util.Stack;
  * <p>
  * 　　其中，快排是最好的， 其次是归并和希尔，堆排序在数据量很大时效果明显。
  */
-public class Sort {
+public class Sort{
 
 	/**
 	 * 1.冒泡排序
